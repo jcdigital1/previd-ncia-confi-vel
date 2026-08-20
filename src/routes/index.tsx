@@ -104,7 +104,7 @@ function Index() {
           className="reveal w-40 max-w-[52vw] sm:w-60"
         />
 
-        <div data-reveal className="reveal mt-8" style={{ transitionDelay: "120ms" }}>
+        <div data-reveal className="reveal mt-6" style={{ transitionDelay: "120ms" }}>
           <h1 className="font-display text-3xl font-medium sm:text-4xl">
             Jéssica Rodrigues Advocacia
           </h1>
@@ -113,9 +113,9 @@ function Index() {
           </p>
         </div>
 
-        <div data-reveal className="reveal mt-10 w-full" style={{ transitionDelay: "220ms" }}>
+        <div data-reveal className="reveal mt-8 w-full" style={{ transitionDelay: "220ms" }}>
           <div className="gold-rule mx-auto max-w-40" />
-          <p className="mt-8 font-display text-[2rem] leading-[1.15] font-semibold sm:text-5xl">
+          <p className="mt-6 font-display text-[2rem] leading-[1.15] font-semibold sm:text-5xl">
             “Benefício negado pelo INSS{" "}
             <span className="text-gold-gradient">não significa fim.</span>”
           </p>
@@ -123,14 +123,14 @@ function Index() {
 
         <p
           data-reveal
-          className="reveal mt-7 max-w-md text-[0.95rem] leading-relaxed text-muted-foreground"
+          className="reveal mt-5 max-w-md text-[0.95rem] leading-relaxed text-muted-foreground"
           style={{ transitionDelay: "300ms" }}
         >
           Há mais de 10 anos atuando para reverter negativas e garantir direitos previdenciários.
           Atendimento em todo o Brasil.
         </p>
 
-        <div data-reveal className="reveal mt-10" style={{ transitionDelay: "380ms" }}>
+        <div data-reveal className="reveal mt-8" style={{ transitionDelay: "380ms" }}>
           <GoldButton size="lg">Falar com a advogada</GoldButton>
           <p className="mt-5 text-xs tracking-wide text-muted-foreground/80">
             Atendimento previdenciário para todo o Brasil.
