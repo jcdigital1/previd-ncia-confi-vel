@@ -96,15 +96,15 @@ function Index() {
   return (
     <main className="relative overflow-hidden bg-hero">
       {/* HERO */}
-      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-center px-6 py-16 text-center">
+      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-start px-5 pb-16 pt-8 text-center">
         <img
           src={LOGO}
           alt="Logo Jéssica Rodrigues Advocacia"
           data-reveal
-          className="reveal h-auto max-h-[36svh] w-auto max-w-[60vw] object-contain"
+          className="reveal h-auto w-[78vw] max-w-sm object-contain"
         />
 
-        <div data-reveal className="reveal mt-6" style={{ transitionDelay: "120ms" }}>
+        <div data-reveal className="reveal mt-4" style={{ transitionDelay: "120ms" }}>
           <h1 className="font-display text-3xl font-medium sm:text-4xl">
             Jéssica Rodrigues Advocacia
           </h1>
@@ -113,7 +113,39 @@ function Index() {
           </p>
         </div>
 
-        <div data-reveal className="reveal mt-8 w-full" style={{ transitionDelay: "220ms" }}>
+        <div data-reveal className="reveal mt-7" style={{ transitionDelay: "180ms" }}>
+          <GoldButton size="lg">Falar com a advogada</GoldButton>
+        </div>
+
+        {/* Acesso rápido: WhatsApp, Instagram, Facebook, endereço */}
+        <div
+          data-reveal
+          className="reveal mt-7 flex items-center justify-center gap-3"
+          style={{ transitionDelay: "240ms" }}
+        >
+          {links.map((l) => (
+            <a
+              key={l.label}
+              href={l.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={l.text}
+              title={l.text}
+              className="grid h-12 w-12 place-items-center rounded-full border border-gold/40 bg-card/40 transition-colors duration-300 hover:border-gold hover:bg-card"
+            >
+              <l.icon className="h-5 w-5 text-gold" strokeWidth={1.5} />
+            </a>
+          ))}
+        </div>
+        <p
+          data-reveal
+          className="reveal mt-3 text-[0.62rem] uppercase tracking-[0.22em] text-muted-foreground/70"
+          style={{ transitionDelay: "280ms" }}
+        >
+          WhatsApp · Instagram · Facebook · Endereço
+        </p>
+
+        <div data-reveal className="reveal mt-9 w-full" style={{ transitionDelay: "340ms" }}>
           <div className="gold-rule mx-auto max-w-40" />
           <p className="mt-6 font-display text-[2rem] leading-[1.15] font-semibold sm:text-5xl">
             “Benefício negado pelo INSS{" "}
@@ -124,18 +156,20 @@ function Index() {
         <p
           data-reveal
           className="reveal mt-5 max-w-md text-[0.95rem] leading-relaxed text-muted-foreground"
-          style={{ transitionDelay: "300ms" }}
+          style={{ transitionDelay: "400ms" }}
         >
           Há mais de 10 anos atuando para reverter negativas e garantir direitos previdenciários.
           Atendimento em todo o Brasil.
         </p>
 
-        <div data-reveal className="reveal mt-8" style={{ transitionDelay: "380ms" }}>
-          <GoldButton size="lg">Falar com a advogada</GoldButton>
-          <p className="mt-5 text-xs tracking-wide text-muted-foreground/80">
-            Atendimento previdenciário para todo o Brasil.
-          </p>
-        </div>
+        <p
+          data-reveal
+          className="reveal mt-6 text-xs tracking-wide text-muted-foreground/80"
+          style={{ transitionDelay: "460ms" }}
+        >
+          Atendimento previdenciário para todo o Brasil.
+        </p>
+
       </section>
 
       {/* SERVIÇOS */}
