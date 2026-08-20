@@ -40,17 +40,17 @@
 
 :root {
   --radius: 0.5rem;
-  --wine: oklch(0.28 0.09 24);
-  --wine-deep: oklch(0.22 0.075 22);
-  --ink: oklch(0.16 0.015 20);
+  --wine: oklch(0.21 0.072 24);
+  --wine-deep: oklch(0.165 0.055 22);
+  --ink: oklch(0.115 0.012 20);
   --gold: oklch(0.79 0.11 84);
   --gold-soft: oklch(0.88 0.06 88);
 
-  --background: oklch(0.19 0.05 22);
+  --background: oklch(0.14 0.035 22);
   --foreground: oklch(0.97 0.008 90);
-  --card: oklch(0.24 0.065 23);
+  --card: oklch(0.185 0.05 23);
   --card-foreground: oklch(0.97 0.008 90);
-  --popover: oklch(0.24 0.065 23);
+  --popover: oklch(0.185 0.05 23);
   --popover-foreground: oklch(0.97 0.008 90);
   --primary: var(--gold);
   --primary-foreground: oklch(0.19 0.05 22);

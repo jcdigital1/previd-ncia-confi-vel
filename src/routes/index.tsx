@@ -104,7 +104,7 @@ function Index() {
           className="reveal h-auto w-[78vw] max-w-sm object-contain"
         />
 
-        <div data-reveal className="reveal mt-4" style={{ transitionDelay: "120ms" }}>
+        <div data-reveal className="reveal -mt-2" style={{ transitionDelay: "120ms" }}>
           <h1 className="font-display text-3xl font-medium sm:text-4xl">
             Jéssica Rodrigues Advocacia
           </h1>
