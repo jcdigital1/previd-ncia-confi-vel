@@ -101,7 +101,7 @@ function Index() {
           src={LOGO}
           alt="Logo Jéssica Rodrigues Advocacia"
           data-reveal
-          className="reveal w-40 max-w-[52vw] sm:w-60"
+          className="reveal h-auto max-h-[36svh] w-auto max-w-[60vw] object-contain"
         />
 
         <div data-reveal className="reveal mt-6" style={{ transitionDelay: "120ms" }}>
