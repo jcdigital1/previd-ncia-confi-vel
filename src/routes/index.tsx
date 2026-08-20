@@ -96,12 +96,12 @@ function Index() {
   return (
     <main className="relative overflow-hidden bg-hero">
       {/* HERO */}
-      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-center px-6 py-20 text-center">
+      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-center px-6 py-16 text-center">
         <img
           src={LOGO}
           alt="Logo Jéssica Rodrigues Advocacia"
           data-reveal
-          className="reveal w-56 max-w-[70vw] sm:w-72"
+          className="reveal w-40 max-w-[52vw] sm:w-60"
         />
 
         <div data-reveal className="reveal mt-8" style={{ transitionDelay: "120ms" }}>
