@@ -96,7 +96,7 @@ function Index() {
   return (
     <main className="relative overflow-hidden bg-hero">
       {/* HERO */}
-      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-center px-6 py-16 text-center">
+      <section className="mx-auto flex min-h-[100svh] w-full max-w-2xl flex-col items-center justify-center px-5 pb-16 pt-8 text-center">
         <img
           src={LOGO}
           alt="Logo Jéssica Rodrigues Advocacia"
